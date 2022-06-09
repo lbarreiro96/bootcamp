@@ -1,0 +1,169 @@
+C:\Users\lbarr\hardhat-starter-kit>cd hardhat-starter-kit
+El sistema no puede encontrar la ruta especificada.
+
+C:\Users\lbarr\hardhat-starter-kit>yarn
+yarn install v1.22.18
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+warning Pattern ["ethereumjs-abi@git+https://github.com/ethereumjs/ethereumjs-abi.git"] is trying to unpack in the same destination "C:\\Users\\lbarr\\AppData\\Local\\Yarn\\Cache\\v6\\npm-ethereumjs-abi-0.6.8-ee3994657fa7a427238e6ba92a84d0b529bbcde0\\node_modules\\ethereumjs-abi" as pattern ["ethereumjs-abi@0.6.8","ethereumjs-abi@^0.6.8","ethereumjs-abi@^0.6.8"]. This could result in non-deterministic behavior, skipping.
+warning Pattern ["@eth-optimism/solc@^0.6.12-alpha.1"] is trying to unpack in the same destination "C:\\Users\\lbarr\\AppData\\Local\\Yarn\\Cache\\v6\\npm-@eth-optimism-solc-v0-6-12-0.6.12-alpha.1-041876f83b34c6afe2f19dfe9626568df6ed8590-integrity\\node_modules\\@eth-optimism\\solc-v0.6.12" as pattern ["@eth-optimism/solc-v0.6.12@npm:@eth-optimism/solc@^0.6.12-alpha.1"]. This could result in non-deterministic behavior, skipping.
+[3/4] Linking dependencies...
+warning "@chainlink/test-helpers > @krebernisak/ovm-plugins@0.0.15" has incorrect peer dependency "@nomiclabs/hardhat-ethers@^2.0.1".
+warning "@chainlink/test-helpers > @krebernisak/ovm-plugins > @nomiclabs/hardhat-truffle5@2.0.3" has unmet peer dependency "@nomiclabs/hardhat-web3@^2.0.0".
+warning "@chainlink/test-helpers > @krebernisak/ovm-plugins > @nomiclabs/hardhat-truffle5@2.0.3" has unmet peer dependency "web3@^1.0.0-beta.36".
+warning "@chainlink/test-helpers > typechain > ts-essentials@7.0.3" has unmet peer dependency "typescript@>=3.7.0".
+warning "@chainlink/test-helpers > @krebernisak/ovm-plugins > @nomiclabs/hardhat-truffle5 > @nomiclabs/truffle-contract@4.2.23" has unmet peer dependency "web3@^1.2.1".
+warning "@chainlink/test-helpers > @krebernisak/ovm-plugins > @nomiclabs/hardhat-truffle5 > @nomiclabs/truffle-contract@4.2.23" has unmet peer dependency "web3-core-helpers@^1.2.1".
+warning "@chainlink/test-helpers > @krebernisak/ovm-plugins > @nomiclabs/hardhat-truffle5 > @nomiclabs/truffle-contract@4.2.23" has unmet peer dependency "web3-core-promievent@^1.2.1".
+warning "@chainlink/test-helpers > @krebernisak/ovm-plugins > @nomiclabs/hardhat-truffle5 > @nomiclabs/truffle-contract@4.2.23" has unmet peer dependency "web3-eth-abi@^1.2.1".
+warning "@chainlink/test-helpers > @krebernisak/ovm-plugins > @nomiclabs/hardhat-truffle5 > @nomiclabs/truffle-contract@4.2.23" has unmet peer dependency "web3-utils@^1.2.1".
+warning " > babel-eslint@10.1.0" has unmet peer dependency "eslint@>= 4.12.1".
+warning " > @nomiclabs/hardhat-waffle@2.0.2" has incorrect peer dependency "@nomiclabs/hardhat-ethers@^2.0.0".
+warning "ethereum-waffle > @ethereum-waffle/compiler > typechain > ts-essentials@6.0.7" has unmet peer dependency "typescript@>=3.7.0".
+warning " > hardhat-deploy@0.9.29" has unmet peer dependency "@ethersproject/hardware-wallets@^5.0.14".
+[4/4] Building fresh packages...
+[-/27] ⠄ waiting...
+[10/27] ⠄ secp256k1
+[14/27] ⡀ node-hid
+[17/27] ⡀ node-hid
+warning Error running install script for optional dependency: "C:\\Users\\lbarr\\hardhat-starter-kit\\node_modules\\node-hid: Command failed.
+Exit code: 1
+Command: prebuild-install || node-gyp rebuild
+Arguments:
+Directory: C:\\Users\\lbarr\\hardhat-starter-kit\\node_modules\\node-hid
+Output:
+prebuild-install WARN install No prebuilt binaries found (target=16.15.1 runtime=node arch=x64 libc= platform=win32)
+gyp info it worked if it ends with ok
+gyp info using node-gyp@9.0.0
+gyp info using node@16.15.1 | win32 | x64
+
+C:\\Users\\lbarr\\hardhat-starter-kit\\node_modules\\node-hid>if not defined npm_config_node_gyp (node \"C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin\\\\..\\..\\node_modules\\node-gyp\\bin\\node-gyp.js\" rebuild )  else (node \"\" rebuild )
+gyp info find Python using Python version 3.10.4 found at \"C:\\Python310\\python.exe\"
+gyp http GET https://nodejs.org/download/release/v16.15.1/node-v16.15.1-headers.tar.gz
+gyp http 200 https://nodejs.org/download/release/v16.15.1/node-v16.15.1-headers.tar.gz
+gyp http GET https://nodejs.org/download/release/v16.15.1/SHASUMS256.txt
+gyp http GET https://nodejs.org/download/release/v16.15.1/win-x86/node.lib
+gyp http GET https://nodejs.org/download/release/v16.15.1/win-arm64/node.lib
+gyp http GET https://nodejs.org/download/release/v16.15.1/win-x64/node.lib
+gyp http 200 https://nodejs.org/download/release/v16.15.1/SHASUMS256.txt
+gyp http 404 https://nodejs.org/download/release/v16.15.1/win-arm64/node.lib
+gyp http 200 https://nodejs.org/download/release/v16.15.1/win-x64/node.lib
+gyp http 200 https://nodejs.org/download/release/v16.15.1/win-x86/node.lib
+gyp ERR! find VS
+gyp ERR! find VS msvs_version not set from command line or npm config
+gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+gyp ERR! find VS checking VS2019 (16.11.32510.428) found at:
+gyp ERR! find VS \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\"
+gyp ERR! find VS - found \"Visual Studio C++ core features\"
+gyp ERR! find VS - found VC++ toolset: v142
+gyp ERR! find VS - missing any Windows SDK
+gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+gyp ERR! find VS looking for Visual Studio 2015
+gyp ERR! find VS - not found
+gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+gyp ERR! find VS
+gyp ERR! find VS **************************************************************
+gyp ERR! find VS You need to install the latest version of Visual Studio
+gyp ERR! find VS including the \"Desktop development with C++\" workload.
+gyp ERR! find VS For more information consult the documentation at:
+gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+gyp ERR! find VS **************************************************************
+gyp ERR! find VS
+gyp ERR! configure error
+gyp ERR! stack Error: Could not find any Visual Studio installation to use
+gyp ERR! stack     at VisualStudioFinder.fail (C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\find-visualstudio.js:122:47)
+gyp ERR! stack     at C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\find-visualstudio.js:75:16
+gyp ERR! stack     at VisualStudioFinder.findVisualStudio2013 (C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\find-visualstudio.js:363:14)
+gyp ERR! stack     at C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\find-visualstudio.js:71:14
+gyp ERR! stack     at C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\find-visualstudio.js:384:16
+gyp ERR! stack     at C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\util.js:54:7
+gyp ERR! stack     at C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\util.js:33:16
+gyp ERR! stack     at ChildProcess.exithandler (node:child_process:406:5)
+gyp ERR! stack     at ChildProcess.emit (node:events:527:28)
+gyp ERR! stack     at maybeClose (node:internal/child_process:1092:16)
+gyp ERR! System Windows_NT 10.0.19043
+gyp ERR! command \"C:\\\\Program Files\\\\nodejs\\\\node.exe\" \"C:\\\\Program Files\\\\nodejs\\\\node_modules\\\\npm\\\\node_modules\\\\node-gyp\\\\bin\\\\node-gyp.js\" \"rebuild\"
+gyp ERR! cwd C:\\Users\\lbarr\\hardhat-starter-kit\\node_modules\\node-hid
+[-/27] ⢀ waiting...
+[10/27] ⢀ secp256k1
+[-/27] ⠠ waiting...
+[17/27] ⠠ node-hid
+warning Error running install script for optional dependency: "C:\\Users\\lbarr\\hardhat-starter-kit\\node_modules\\@ethersproject\\hardware-wallets\\node_modules\\node-hid: Command failed.
+Exit code: 1
+Command: prebuild-install || node-gyp rebuild
+Arguments:
+Directory: C:\\Users\\lbarr\\hardhat-starter-kit\\node_modules\\@ethersproject\\hardware-wallets\\node_modules\\node-hid
+Output:
+prebuild-install WARN install No prebuilt binaries found (target=16.15.1 runtime=node arch=x64 libc= platform=win32)
+
+C:\\Users\\lbarr\\hardhat-starter-kit\\node_modules\\@ethersproject\\hardware-wallets\\node_modules\\node-hid>if not defined npm_config_node_gyp (node \"C:\\Program 
+Files\\nodejs\\node_modules\\npm\\bin\\node-gyp-bin\\\\..\\..\\node_modules\\node-gyp\\bin\\node-gyp.js\" rebuild )  else (node \"\" rebuild )
+gyp info it worked if it ends with ok
+gyp info using node-gyp@9.0.0
+gyp info using node@16.15.1 | win32 | x64
+gyp info find Python using Python version 3.10.4 found at \"C:\\Python310\\python.exe\"
+gyp http GET https://nodejs.org/download/release/v16.15.1/node-v16.15.1-headers.tar.gz
+gyp http 200 https://nodejs.org/download/release/v16.15.1/node-v16.15.1-headers.tar.gz
+gyp http GET https://nodejs.org/download/release/v16.15.1/SHASUMS256.txt
+gyp http GET https://nodejs.org/download/release/v16.15.1/win-arm64/node.lib
+gyp http GET https://nodejs.org/download/release/v16.15.1/win-x86/node.lib
+gyp http GET https://nodejs.org/download/release/v16.15.1/win-x64/node.lib
+gyp http 200 https://nodejs.org/download/release/v16.15.1/SHASUMS256.txt
+gyp http 200 https://nodejs.org/download/release/v16.15.1/win-x86/node.lib
+gyp http 404 https://nodejs.org/download/release/v16.15.1/win-arm64/node.lib
+gyp http 200 https://nodejs.org/download/release/v16.15.1/win-x64/node.lib
+gyp ERR! find VS
+gyp ERR! find VS msvs_version not set from command line or npm config
+gyp ERR! find VS VCINSTALLDIR not set, not running in VS Command Prompt
+gyp ERR! find VS checking VS2019 (16.11.32510.428) found at:
+gyp ERR! find VS \"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\"
+gyp ERR! find VS - found \"Visual Studio C++ core features\"
+gyp ERR! find VS - found VC++ toolset: v142
+gyp ERR! find VS - missing any Windows SDK
+gyp ERR! find VS could not find a version of Visual Studio 2017 or newer to use
+gyp ERR! find VS looking for Visual Studio 2015
+gyp ERR! find VS - not found
+gyp ERR! find VS not looking for VS2013 as it is only supported up to Node.js 8
+gyp ERR! find VS
+gyp ERR! find VS **************************************************************
+gyp ERR! find VS You need to install the latest version of Visual Studio
+gyp ERR! find VS including the \"Desktop development with C++\" workload.
+gyp ERR! find VS For more information consult the documentation at:
+gyp ERR! find VS https://github.com/nodejs/node-gyp#on-windows
+gyp ERR! find VS **************************************************************
+gyp ERR! find VS
+gyp ERR! configure error
+gyp ERR! stack Error: Could not find any Visual Studio installation to use
+gyp ERR! stack     at VisualStudioFinder.fail (C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\find-visualstudio.js:122:47)
+gyp ERR! stack     at C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\find-visualstudio.js:75:16
+gyp ERR! stack     at VisualStudioFinder.findVisualStudio2013 (C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\find-visualstudio.js:363:14)
+gyp ERR! stack     at C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\find-visualstudio.js:71:14
+gyp ERR! stack     at C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\find-visualstudio.js:384:16
+gyp ERR! stack     at C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\util.js:54:7
+gyp ERR! stack     at C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\lib\\util.js:33:16
+gyp ERR! stack     at ChildProcess.exithandler (node:child_process:406:5)
+gyp ERR! stack     at ChildProcess.emit (node:events:527:28)
+gyp ERR! stack     at maybeClose (node:internal/child_process:1092:16)
+gyp ERR! System Windows_NT 10.0.19043
+gyp ERR! command \"C:\\\\Program Files\\\\nodejs\\\\node.exe\" \"C:\\\\Program Files\\\\nodejs\\\\node_modules\\\\npm\\\\node_modules\\\\node-gyp\\\\bin\\\\node-gyp.js\" \"rebuild\"
+gyp ERR! cwd C:\\Users\\lbarr\\hardhat-starter-kit\\node_modules\\@ethersproject\\hardware-wallets\\node_modules\\node-hid
+warning Your current version of Yarn is out of date. The latest version is "1.22.19", while you're on "1.22.18".
+info To upgrade, run the following command:
+$ curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+Done in 113.94s.
+
+C:\Users\lbarr\hardhat-starter-kit>yarn hardhat node
+yarn run v1.22.18
+$ C:\Users\lbarr\hardhat-starter-kit\node_modules\.bin\hardhat node
+Error HH8: There's one or more errors in your config file:
+
+  * Invalid account: #0 for network: kovan - private key too short, expected 32 bytes
+  * Invalid account: #0 for network: rinkeby - private key too short, expected 32 bytes
+  * Invalid account: #0 for network: mainnet - private key too short, expected 32 bytes
+  * Invalid account: #0 for network: polygon - private key too short, expected 32 bytes
+  
+To learn more about Hardhat's configuration, please go to https://hardhat.org/config/
+
+For more info go to https://hardhat.org/HH8 or run Hardhat with --show-stack-traces
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
